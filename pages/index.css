@@ -178,15 +178,17 @@
 }
 .form {
   padding-bottom: 120px;
+  display: flex;
 }
 .reservation__form {
   width: 385px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 .form__fieldset {
   border: none;
+  row-gap: 32px;
 }
 .form__label {
   font-weight: 500;
@@ -195,6 +197,8 @@
 }
 .form__input {
   border-radius: 4px;
+  max-width: 385px;
+  height: 60px;
 }
 .form__button {
   background-color: #2f80ed;
