@@ -4,11 +4,12 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding: 100px 0;
 }
 
 .menu__title {
   max-width: 780px;
-  margin: 100px auto 24px;
+  margin: 0 auto 24px;
   text-align: center;
   font-weight: 500;
   font-size: 44px;
@@ -26,7 +27,7 @@
 
 .menu__cards {
   display: flex;
-  margin: 0 auto 100px;
+  margin: 0 auto 0;
   flex-wrap: wrap;
   justify-content: center;
   gap: 100px;

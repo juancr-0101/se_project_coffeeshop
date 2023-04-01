@@ -25,7 +25,7 @@
 }
 
 .card__list-item:last-of-type {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .card__list-divider {

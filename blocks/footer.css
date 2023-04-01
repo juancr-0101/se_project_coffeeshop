@@ -37,7 +37,7 @@
 }
 
 .footer__list-item:last-of-type {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .footer__social-link {
@@ -50,7 +50,6 @@
 
 .footer__social-link:hover {
   color: #424749;
-  transition: color 2s ease-out;
 }
 
 .footer__social-icon {
