@@ -4,12 +4,13 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 215px;
 }
 
 .recipes__title {
   max-width: 580px;
   margin: 0 0 0 80px;
-  padding-top: 100px;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -28,10 +29,8 @@
 .recipes__videos {
   display: flex;
   justify-content: center;
-  margin: auto;
-  padding-top: 80px;
-  padding-bottom: 215px;
-  column-gap: 80px;
+  margin: 80px auto 0;
+  column-gap: 40px;
 }
 
 .recipes__iframe {
@@ -46,7 +45,7 @@
   line-height: 30px;
   color: #ffffff;
   margin: 0;
-  padding-top: 24px;
+  margin-top: 24px;
   display: flex;
   justify-content: space-between;
 }

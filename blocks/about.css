@@ -18,16 +18,18 @@
   display: flex;
   position: relative;
   color: #fff;
-  z-index: 0;
+  z-index: 1;
   justify-content: space-between;
   overflow: hidden;
+  padding-top: 100px;
+  padding-right: 80px;
+  padding-bottom: 173px;
 }
 
 .about__title {
   max-width: 251px;
   margin: 0;
-  padding-top: 100px;
-  padding-left: 80px;
+  margin-left: 80px;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -36,9 +38,7 @@
 
 .about__content {
   max-width: 660px;
-  padding-top: 119px;
-  padding-right: 80px;
-  padding-bottom: 173px;
+  margin-top: 19px;
   display: flex;
   flex-direction: column;
 }
@@ -48,7 +48,7 @@
   font-size: 20px;
   line-height: 30px;
   margin: 0;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .about__paragraph:last-of-type {
@@ -61,7 +61,7 @@
   background-color: #2f80ed;
   border-radius: 50%;
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   top: -152px;
   left: -129px;
 }

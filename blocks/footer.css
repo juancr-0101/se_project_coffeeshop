@@ -1,12 +1,12 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: #fff;
+  padding: 60px 100px 0 80px;
 }
 
 .footer__content {
   display: flex;
   margin: 0;
-  padding: 60px 100px 0 80px;
 }
 
 .footer__logo {
@@ -20,7 +20,7 @@
 
 .footer__social-heading {
   margin: 0;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   font-weight: bold;
   font-size: 16px;
   text-align: left;
@@ -33,7 +33,7 @@
 }
 
 .footer__list-item {
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .footer__list-item:last-of-type {
@@ -45,11 +45,12 @@
   padding: 0;
   display: flex;
   align-items: center;
+  transition: color 2s ease-out;
 }
 
 .footer__social-link:hover {
-  transition: color 0.3s ease-out;
-  color: #c1c1c1;
+  color: #424749;
+  transition: color 2s ease-out;
 }
 
 .footer__social-icon {
@@ -60,6 +61,6 @@
 }
 
 .footer__copyright {
-  margin: 0;
-  padding: 108px 0 60px 80px;
+  margin: 108px 0 0;
+  padding: 0 0 60px 0;
 }
